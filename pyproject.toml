@@ -9,6 +9,7 @@ packages = [{include = "llm_graph_ai"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+aws-cdk-lib = "^2.94.0"
 
 
 [build-system]
