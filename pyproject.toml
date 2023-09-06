@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "llm-graph-ai"
+version = "0.1.0"
+description = "LLM / Graph AI / Knowledge Graph Experiments for Natural Language is all a Graph Needs"
+authors = ["Russell Jurney <rjurney@graphlet.ai>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "llm_graph_ai"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
