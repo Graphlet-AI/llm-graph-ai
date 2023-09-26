@@ -13,6 +13,7 @@ openai = "^0.28.0"
 chromadb = "^0.4.13"
 langchain = "^0.0.301"
 pypdf = "^3.16.2"
+aws-cdk-lib = "^2.97.0"
 
 
 [tool.poetry.group.dev.dependencies]
