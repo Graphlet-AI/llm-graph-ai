@@ -1,0 +1,220 @@
+# Prompts from [Natural Language is all a Graph Needs](https://arxiv.org/abs/2308.07134) by [Ruosong Ye](https://www.linkedin.com/in/ruosong-ye-a0507724b/)
+
+## A.1.1 Node Classification
+
+### Task-Specific Prefix
+
+```
+Classify the paper according to its topic into one of the following
+categories: {{All Categories}} .\n Node represents academic paper with a specific
+topic, link represents a citation between the two papers. Pay attention to the
+multi-hop link relationship between the nodes.
+```
+
+### Prompt ID: 1-1-1-1
+
+#### Input Template
+
+```
+{{central node}} is connected with {{1-hop neighbor list}} within one hop. Which category should {{central node}} be classified as?
+```
+
+#### Target Template
+
+```
+{{category}}
+```
+
+### Prompt ID: 1-1-2-1
+
+#### Input Template
+
+```
+{{central node}} is connected with {{2-hops neighbor list}} within two hops. Which category should {{central node}} be classified as?
+```
+
+#### Target Template
+
+```
+{{category}}
+```
+
+### Prompt ID: 1-1-2-2
+
+#### Input Template
+
+```
+{{central node}} is connected with {{2-hops neighbor list}} within two hops
+through {{corresponding 1-hop intermediate node list}}, respectively. Which
+category should {{central node}} be classified as?
+```
+
+#### Target Template
+
+```
+{{category}}
+```
+
+### Prompt ID: 1-1-3-1
+
+#### Input Template
+
+```
+{{central node}} is connected with {{3-hops neighbor list}} within three hops.
+Which category should {{central node}} be classified as?
+```
+
+#### Target Template
+
+```
+{{category}}
+```
+
+### Prompt ID: 1-1-3-2
+
+#### Input Template
+
+```
+{{central node}} is connected with {{3-hops neighbor list}} within three hops
+through {{corresponding 2-hops intermediate path list}}, respectively. Which
+category should {{central node}} be classified as?
+```
+
+#### Target Template:
+
+```
+{{category}}
+```
+
+### Prompt ID: 1-2-1-1
+
+#### Input Template
+
+```
+({{central node}}, {{text feature}} ) is connected with {{1-hop neighbor list
+attached text feature}} within one hop. Which category should ({{central
+node}}, {{text feature}}) be classified as?
+```
+
+#### Target Template
+
+```
+{{category}}
+```
+
+### Prompt ID: 1-2-2-1
+
+#### Imput Template
+
+```
+({{central node}},{{text feature}}) is connected with {{2-hops neighbor list attached text feature}} within two hops. Which category should ({{central node}},{{text feature}}) be classified as?
+```
+
+#### Target Template
+
+```
+{{category}}
+```
+
+### Prompt ID: 1-2-2-2
+
+#### Input Template
+
+```
+({{central node}},{{text feature}}) is connected with {{2-hops neighbor list attached text feature}} within two hops through {{corresponding 1-hop intermediate node list attached text feature}}, respectively. Which category should ({{central node}},{{text feature}}) be classified as?
+```
+
+#### Target Template
+
+```
+{{category}}
+```
+
+### Prompt ID: 1-2-3-1
+
+#### Input Template
+
+```
+({{central node}},{{text feature}}) is connected with {{3-hops neighbor list attached text feature}} within three hops. Which category should ({{central node}},{{text feature}}) be classified as?
+```
+
+#### Target Template
+
+```
+{{category}}
+```
+
+
+### Prompt ID: 1-2-3-2
+
+#### Input Template
+
+```
+({{central node}},{{text feature}}) is connected with {{3-hops neighbor list attached text feature}} within three hops through {{corresponding 2-hops intermediate path list attached text feature}}, respectively. Which category should ({{central node}},{{text feature}}) be classified as?
+```
+
+#### Target Template
+
+```
+{{category}}
+```
+
+
+### Prompt ID: 1-0-0-0
+
+#### Input Template
+
+```
+{{central node}} is featured with {{central node}} be classified as?
+```
+
+#### Target Template
+
+```
+{{category}}
+```
+
+
+### Prompt ID: 
+
+#### Input Template
+
+```
+
+```
+
+#### Target Template
+
+```
+
+```
+
+
+### Prompt ID: 
+
+#### Input Template
+
+```
+
+```
+
+#### Target Template
+
+```
+
+```
+
+
+### Prompt ID: 
+
+#### Input Template
+
+```
+
+```
+
+#### Target Template
+
+```
+
+```
