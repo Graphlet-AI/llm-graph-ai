@@ -5,10 +5,7 @@
 ### Task-Specific Prefix
 
 ```
-Classify the paper according to its topic into one of the following
-categories: {{All Categories}} .\n Node represents academic paper with a specific
-topic, link represents a citation between the two papers. Pay attention to the
-multi-hop link relationship between the nodes.
+Classify the paper according to its topic into one of the following categories: {{All Categories}} .\n Node represents academic paper with a specific topic, link represents a citation between the two papers. Pay attention to the multi-hop link relationship between the nodes.
 ```
 
 ### Prompt ID: 1-1-1-1
@@ -44,9 +41,7 @@ multi-hop link relationship between the nodes.
 #### Input Template
 
 ```
-{{central node}} is connected with {{2-hops neighbor list}} within two hops
-through {{corresponding 1-hop intermediate node list}}, respectively. Which
-category should {{central node}} be classified as?
+{{central node}} is connected with {{2-hops neighbor list}} within two hops through {{corresponding 1-hop intermediate node list}}, respectively. Which category should {{central node}} be classified as?
 ```
 
 #### Target Template
@@ -60,8 +55,7 @@ category should {{central node}} be classified as?
 #### Input Template
 
 ```
-{{central node}} is connected with {{3-hops neighbor list}} within three hops.
-Which category should {{central node}} be classified as?
+{{central node}} is connected with {{3-hops neighbor list}} within three hops. Which category should {{central node}} be classified as?
 ```
 
 #### Target Template
@@ -75,9 +69,7 @@ Which category should {{central node}} be classified as?
 #### Input Template
 
 ```
-{{central node}} is connected with {{3-hops neighbor list}} within three hops
-through {{corresponding 2-hops intermediate path list}}, respectively. Which
-category should {{central node}} be classified as?
+{{central node}} is connected with {{3-hops neighbor list}} within three hops through {{corresponding 2-hops intermediate path list}}, respectively. Which category should {{central node}} be classified as?
 ```
 
 #### Target Template:
@@ -91,9 +83,7 @@ category should {{central node}} be classified as?
 #### Input Template
 
 ```
-({{central node}}, {{text feature}} ) is connected with {{1-hop neighbor list
-attached text feature}} within one hop. Which category should ({{central
-node}}, {{text feature}}) be classified as?
+({{central node}}, {{text feature}} ) is connected with {{1-hop neighbor list attached text feature}} within one hop. Which category should ({{central node}}, {{text feature}}) be classified as?
 ```
 
 #### Target Template
@@ -159,7 +149,6 @@ node}}, {{text feature}}) be classified as?
 {{category}}
 ```
 
-
 ### Prompt ID: 1-0-0-0
 
 #### Input Template
@@ -174,6 +163,13 @@ node}}, {{text feature}}) be classified as?
 {{category}}
 ```
 
+## A.1.2 Link Prediction
+
+### Task-Specific Prefix
+
+```
+Perform Link Prediction for the central node:\n Node represents academic paper with a specific topic, link represents a citation between the two papers. Pay attention to the multi-hop link relationship between the nodes.
+```
 
 ### Prompt ID: 
 
