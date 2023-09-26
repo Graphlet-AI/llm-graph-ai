@@ -14,6 +14,7 @@ chromadb = "^0.4.13"
 langchain = "^0.0.301"
 pypdf = "^3.16.2"
 aws-cdk-lib = "^2.97.0"
+llama-index = "^0.8.33"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.9.1"
