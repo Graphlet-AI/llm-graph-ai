@@ -33,7 +33,7 @@ Prompts were [lovingly <3] rewritten in Markdown format in [prompts.md](prompts.
 
 Markdown prompts are then parsed in [marko](https://marko-py.readthedocs.io/en/latest/) and converted into LangChain prompts via [LangChain Decorators](https://python.langchain.com/docs/integrations/providers/langchain_decorators). I wonder - is this a general pattern?
 
-Copied from the paper, the specification for the instruction prompts included in prompts.json are as follows:
+Copied from the paper, the specification for the instruction prompts included in [prompts.md](prompts.md) are as follows:
 
 _In this appendix, we present all our designed instruction prompts. It is worth noting that we follow
 the following conventions when numbering the prompts:_
