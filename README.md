@@ -38,10 +38,10 @@ Copied from the paper, the specification for the instruction prompts included in
 _In this appendix, we present all our designed instruction prompts. It is worth noting that we follow
 the following conventions when numbering the prompts:_
 
-• _The length of each prompt number is 4._
-• _The first digit represents the task index, where 1 represents the node classification task and 2 represents the link prediction task._
-• _The second digit represents whether node features or edge features (such as text information) other than numerical feature embedding are used in the prompt. 1 means not used and 2 means used._
-• _The third digit represents the maximum hop order corresponding to the structural information considered in this prompt. 1 represents only the 1-hop neighbors are included, while 2 and 3 represent the structural information including 2-hop and 3-hop neighbors, respectively._
-• _The fourth digit represents whether the intermediate node information (i.e. the path) in the highorder connection is considered in this prompt. If the digit is even, it means that the intermediate
+- _The length of each prompt number is 4._
+- _The first digit represents the task index, where 1 represents the node classification task and 2 represents the link prediction task._
+- _The second digit represents whether node features or edge features (such as text information) other than numerical feature embedding are used in the prompt. 1 means not used and 2 means used._
+- _The third digit represents the maximum hop order corresponding to the structural information considered in this prompt. 1 represents only the 1-hop neighbors are included, while 2 and 3 represent the structural information including 2-hop and 3-hop neighbors, respectively._
+- _The fourth digit represents whether the intermediate node information (i.e. the path) in the highorder connection is considered in this prompt. If the digit is even, it means that the intermediate
 node is considered, while an odd digit indicates otherwise._
-• _Specially, in node classification task, we designed a graph-structure-free prompt and numbered it as 1-0-0-0._
+- _Specially, in node classification task, we designed a graph-structure-free prompt and numbered it as 1-0-0-0._
