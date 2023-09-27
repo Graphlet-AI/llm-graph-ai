@@ -171,46 +171,75 @@ Classify the paper according to its topic into one of the following categories: 
 Perform Link Prediction for the central node:\n Node represents academic paper with a specific topic, link represents a citation between the two papers. Pay attention to the multi-hop link relationship between the nodes.
 ```
 
-### Prompt ID: 
+### Prompt ID: 2-1-1-1
 
 #### Input Template
 
 ```
-
+{{central node}} is connected with {{1-hop neighbor list}} within one hop. Will
+{{candidate node}} be connected with {{central node}} within one hop? 
 ```
 
 #### Target Template
 
 ```
-
+{{yes_no}}
 ```
 
-
-### Prompt ID: 
+### Prompt ID: 2-1-1-2
 
 #### Input Template
 
 ```
-
+{{central node}} is connected with {{1-hop neighbor list}} within one hop. Which other node will be connected to {{central node}} within one hop?
 ```
 
 #### Target Template
 
 ```
-
+{{node_id}}
 ```
 
 
-### Prompt ID: 
+### Prompt ID: 2-1-2-1
 
 #### Input Template
 
 ```
-
+{{central node}} is connected with {{2-hops neighbor list}} within two hops. Will {{ candidate node}} be connected to {{ central node}} within two hops?
 ```
 
 #### Target Template
 
 ```
+{{yes_no}}
+```
+
+### Prompt ID: 2-1-2-2
+
+#### Input Template
 
 ```
+{{central node}} is connected with {{ 2-hops neighbor list}} within two hops through {{corresponding 1-hop intermediate node list}}, respectively. Will {{candidate node}} be connected to {{central node}} within two hops through {{specified 1-hop intermediate node}}?
+```
+
+#### Target Template
+
+```
+{{yes_no}}
+```
+
+### Prompt ID: 2-1-2-3
+
+#### Input Template
+
+```
+{{central node}} is connected with {{2-hops neighbor list}} within two hops. Which other node will be connected to {{central node}} within two hops?
+```
+
+#### Target Template
+
+```
+{{node_id}}
+```
+
