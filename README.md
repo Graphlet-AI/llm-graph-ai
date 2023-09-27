@@ -2,6 +2,13 @@
 
 This project contains experiments on the ideas introduced in [Natural Language is all a Graph Needs](https://arxiv.org/abs/2308.07134) by [Ruosong Ye](https://www.linkedin.com/in/ruosong-ye-a0507724b/), [Caiqi Zhang](https://www.linkedin.com/in/caiqi-alex-zhang-%E5%BC%A0%E8%94%A1%E5%90%AF-99074519b/), [Runhui Wang](https://www.linkedin.com/in/runhui-wang/), [Shuyuan Xu](https://www.linkedin.com/in/shuyuan-xu-870206158/) and [Yongfeng Zhang](https://www.linkedin.com/in/zhangyongfeng/). LLMs have achieved such ease of use that the authors of the paper were able to release _just the prompts_ used for training rather than the entire codebase. This project is an attempt to reproduce the results of the paper and to explore the ideas introduced in the paper further via applied research into applying it to real-world problems.
 
+## Blog Post Series
+
+This work comes from a 3-part series of LinkedIn Articles:
+
+* [LLMs-represent->Knowledge Graphs](https://www.linkedin.com/pulse/instructglm-knowledge-graphsrepresentedbyllms-russell-jurney/?trackingId=slyb9SVqTeemAVP8d4Zz5Q%3D%3D) - describes InstructGLM and announcs my intention to reproduce and extend it to entity resolution problems.
+* 
+
 ## Essential Figures
 
 To understand the paper, take a quick look at the following figures:
