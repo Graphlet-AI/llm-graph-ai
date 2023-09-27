@@ -7,10 +7,17 @@ license = "MIT"
 readme = "README.md"
 packages = [{include = "llm_graph_ai"}]
 
+[project.urls]
+"Blog Post" = "https://www.linkedin.com/pulse/instructglm-knowledge-graphsrepresentedbyllms-russell-jurney/?trackingId=slyb9SVqTeemAVP8d4Zz5Q%3D%3D"
+"Author Homepage" = "https://linkedin.com/in/russelljurney"
+"Company Homepage" = "https://graphlet.ai"
+"Code Repository" = "https://github.com/Graphlet-AI/llm-graph-ai"
+"Bug Tracker" = "https://github.com/Graphlet-AI/llm-graph-ai/issues"
+
 [tool.poetry.dependencies]
 python = "^3.10"
 openai = "^0.28.0"
-chromadb = "^0.4.13"
+chromadb = "^0.4.13"    
 langchain = "^0.0.301"
 pypdf = "^3.16.2"
 aws-cdk-lib = "^2.97.0"
