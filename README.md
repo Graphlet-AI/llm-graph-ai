@@ -4,7 +4,7 @@ This project contains experiments on the ideas introduced in [Natural Language i
 
 ## Significance
 
-I have followed the development of Graph Neural Networks (GNNs) for the last three years. **This paper is very surprising to me.** I need to understand what it means. My goal is to use and extend this techology to create a robust, topology aware, generic entity resolution model in weeks that took six months using BERT, a deep classifier and graph feature engineering without GNNs.
+I have followed the development of Graph Neural Networks (GNNs) for the last three years. **This paper is very surprising to me.** I need to understand what it means. My goal is to use and extend this techology to create a robust, topology aware, generic entity resolution model in weeks that took a year using BERT, Google Grale and a binary classifier model with feature engineering. A GNN version of our model was merely aspirational. 
 
 ## Blog Post Series
 
