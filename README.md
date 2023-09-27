@@ -17,6 +17,10 @@ This work comes from a 3-part [or maybe 4-part] series of LinkedIn Articles:
 
 To understand the paper, take a quick look at the following figures:
 
+<center><img src="images/InstructGLM_Usage.jpg" /></center>
+
+<center><img src="images/InstructGLM_Architecture.jpg" /></center>
+
 ## Instruction Prompts (Appendix A.1)
 
 The paper's authors released their instruction prompts on arXiv on August 14, 2023 while their code is due out in October when their paper is formally published. Therefore I have copied the prompts from the paper PDF to use in this project. They belong to the authors. I will modify them for my own purposes.
